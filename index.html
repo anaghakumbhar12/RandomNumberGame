@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guessing Game</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🎯Guess the Number</h1>
+  <p>Guess between 1 and 100</p>
+
+  <input 
+    type="number" 
+    id="guessInput" 
+    placeholder="Enter number (1-100)" 
+    min="1" 
+    max="100"
+  >
+  <br>
+
+  <button id="submitBtn">Submit</button>
+
+  <div class="message" id="message"></div>
+
+  <!-- 🆕 History -->
+  <div class="history">
+    <strong>Previous Guesses:</strong>
+    <div id="historyList">None</div>
+  </div>
+
+  <div class="progress-bar">
+    <div class="progress" id="progress"></div>
+  </div>
+
+  <div class="score" id="score">Attempts left: 5</div>
+  <button id="newGameBtn">🔄 New Game</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
