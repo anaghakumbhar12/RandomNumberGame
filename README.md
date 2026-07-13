@@ -20,7 +20,7 @@ A simple and interactive number guessing game built with **HTML, CSS, and JavaSc
 ## ▶️ Run Locally
 
 ```bash
-git clone https://github.com/your-username/random-number-game.git
+git clone https://github.com/anaghakumbhar12/RandomNumberGame.git
 ```
 
 Open `index.html` in your browser.
